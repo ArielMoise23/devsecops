@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "eastus"
+            "value": "norwayeast"
         },
         "networkInterfaceName": {
-            "value": "devsecops-cloud801"
+            "value": "devsecops-cloud98765"
         },
         "enableAcceleratedNetworking": {
             "value": true
         },
         "networkSecurityGroupName": {
-            "value": "devsecops-cloud-nsg"
+            "value": "devsecops-cloud-ARIEL"
         },
         "networkSecurityGroupRules": {
             "value": [
@@ -52,7 +52,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "devsecops-cloud_group-vnet"
+            "value": "devsecops-cloud_group-vnet-ARI"
         },
         "addressPrefixes": {
             "value": [
@@ -70,13 +70,13 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "devsecops-cloud-ip"
+            "value": "devsecops-cloud-ip-ARI"
         },
         "publicIpAddressType": {
             "value": "Static"
         },
         "publicIpAddressSku": {
-            "value": "Basic"
+            "value": "Standard"
         },
         "virtualMachineName": {
             "value": "devsecops-cloud"
@@ -98,7 +98,7 @@
                     "caching": "ReadOnly",
                     "writeAcceleratorEnabled": false,
                     "id": null,
-                    "name": "devsecops-cloud_DataDisk_0",
+                    "name": "devsecops-cloud_DataDisk_0-ARI",
                     "storageAccountType": null,
                     "diskSizeGB": null,
                     "diskEncryptionSet": null
@@ -108,7 +108,7 @@
         "dataDiskResources": {
             "value": [
                 {
-                    "name": "devsecops-cloud_DataDisk_0",
+                    "name": "devsecops-cloud_DataDisk_0-ARI",
                     "sku": "StandardSSD_LRS",
                     "properties": {
                         "diskSizeGB": 512,
